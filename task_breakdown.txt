@@ -1,0 +1,30 @@
+Step 1: Build a 0 to 1 Prototype
+
+Task 1: Set Up the Project Environment (1 hour)
+Create a new project directory.
+Initialize a Git repository.
+Set up a virtual environment (if using Python).
+
+
+Task 2: Read the Codebase Using an LLM (1 hour)
+Write a script to read the codebase files.
+Integrate with an Open Source API (e.g., LLAMA) to process the code.
+How to do this is shown through - https://medium.com/@yashpaddalwar/how-to-access-free-open-source-llms-like-llama-3-from-hugging-face-using-python-api-step-by-step-5da80c98f4e3
+
+Task 3: Process Information and Generate UML Diagrams (1 hour)
+Use the processed information to generate UML diagrams.
+Explore libraries like plantuml or graphviz for UML diagram generation.
+
+Task 4: Collect Developer Feedback (1 hour)
+Create a simple interface (CLI or web-based) to display the UML diagram.
+Allow the developer to provide feedback on the generated diagram.
+
+Task 5: Iterate Based on Feedback (1 hour)
+Use the feedback to make another LLM call and refine the UML diagram.
+Update the diagram based on the new information.
+
+Task 6: Output the Model as a Downloadable JPEG (1 hour)
+Convert the final UML diagram to a JPEG format.
+Provide a download link or button for the developer to save the diagram.
+
+Task 7: Make dependicies clear - Install necessary dependencies (e.g., OpenAI API, UML diagram libraries).

@@ -1,0 +1,24 @@
+Project Context: Creating a tool to help junior developers onboard faster
+
+Priority Features:
+A - Convert codebase into UML diagrams
+B - Effectively Q + A with the codebase
+
+Focus on A - 
+
+Let's think through how to develop A. We are going to apply the principles mentioned in the Anthropic article on
+"Building effective agents" (https://www.anthropic.com/research/building-effective-agents)
+
+Step 1. See if can build a 0 to 1 prototype very quickly. This is to get a feel of what things we may need to 
+consider, before building the Agent in a productionisable and scalable manner. 
+
+As I have not done this before, please can you help me plan out the development into chunks of 1 hour tasks.
+
+1st iteration - 
+
+I am unsure of the exact architecture to utilise. Currently, I know we want the agent to read the codebase using an LLM
+(Open Source API), then process the information, create a diagram in UML, ask the developer their feedback. Then, 
+another LLM call to iterate and then the model is output as a downloadable jpeg. 
+
+Please bear in mind that we want to add features over time, so a scalable and productionisable architecutre
+will be very good.
